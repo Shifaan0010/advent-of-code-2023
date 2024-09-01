@@ -156,7 +156,7 @@ type NodeCycleDistance struct {
 }
 
 func minStepsToGhostTargets_Modulo(nodeDistances []NodeCycleDistance, startNodes, endNodes []string) (*big.Int, error) {
-	// TODO: check if all start and nodes are reachable and inside cycles
+	// TODO: check if all start and end nodes are reachable and inside cycles
 
 	maxStepsToStart := 0
 	for _, nodeCycle := range nodeDistances {
